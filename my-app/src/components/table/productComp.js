@@ -1,7 +1,11 @@
 function productComp({ product }) {
 
     return (
-            <div></div>
+        <tr key={product.id}>
+            <td>{product.id}</td>
+            <td>{product.name}</td>
+            <td>{product.price}</td>
+        </tr>
     )
     
 }
